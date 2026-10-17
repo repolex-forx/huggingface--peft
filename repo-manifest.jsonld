@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/huggingface/peft/commit/c2d5f697fbb30063cbde6f39e2734883b70b8753",
       "git:hexsha": "c2d5f697fbb30063cbde6f39e2734883b70b8753",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     },
     {
       "@id": "https://repolex.ai/r/huggingface/peft/commit/39db9877c485f2d66701bb82f3ade62872d030aa",
