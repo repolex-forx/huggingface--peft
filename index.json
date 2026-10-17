@@ -1,0 +1,11 @@
+{
+  "org": "huggingface",
+  "repo": "peft",
+  "versions": [
+    {
+      "commit": "c2d5f697fbb30063cbde6f39e2734883b70b8753",
+      "tag": "",
+      "parsed_at": "2026-10-17T02:13:02.580328+00:00"
+    }
+  ]
+}
