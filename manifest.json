@@ -3817,6 +3817,9 @@
         "blob/cf592582a5951ee61885c774968e47a68ea86d57.nq.gz",
         "blob/50be18884841f87dbfa375ba0099c07f8d967efd.nq.gz",
         "blob/61eb487ad6756e1e31b612ec7a8e4649b860e4c5.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/77daa8d3b7decf2b40238ab47e2c1bd0f26c7749/chunk-001.nq.gz"
       ]
     }
   ],
