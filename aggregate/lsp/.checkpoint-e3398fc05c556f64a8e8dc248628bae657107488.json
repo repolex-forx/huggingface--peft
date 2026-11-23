@@ -1,8 +1,22 @@
 {
   "commit_sha": "e3398fc05c556f64a8e8dc248628bae657107488",
   "completed_files": [
+    "examples/boft_controlnet/utils/unet_2d_condition.py",
+    "examples/causal_language_modeling/peft_lora_clm_accelerate_ds_zero3_offload.py",
+    "examples/conditional_generation/peft_adalora_seq2seq.py",
     "examples/conditional_generation/peft_lora_seq2seq_accelerate_ds_zero3_offload.py",
-    "tests/test_custom_models.py"
+    "src/peft/tuners/boft/layer.py",
+    "src/peft/tuners/ia3/layer.py",
+    "src/peft/tuners/lora/eva.py",
+    "src/peft/tuners/osf/model.py",
+    "src/peft/tuners/xlora/model.py",
+    "tests/test_arrow.py",
+    "tests/test_custom_models.py",
+    "tests/test_decoder_models.py",
+    "tests/test_gpu_examples.py",
+    "tests/test_initialization.py",
+    "tests/test_stablediffusion.py",
+    "tests/testing_common.py"
   ],
   "completed_types": [],
   "stats": {
@@ -10,7 +24,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/e3398fc05c556f64a8e8dc248628bae657107488.nq.gz",
     "call_sites": 31399,
     "import_statements": 2154,
-    "call_targets_resolved": 1850,
+    "call_targets_resolved": 5002,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -24,5 +38,5 @@
     "extends_class_denormalized": 261,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1805
+  "elapsed_seconds": 1809
 }
