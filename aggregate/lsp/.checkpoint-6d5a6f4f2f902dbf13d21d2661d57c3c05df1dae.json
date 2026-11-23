@@ -1,16 +1,25 @@
 {
   "commit_sha": "6d5a6f4f2f902dbf13d21d2661d57c3c05df1dae",
   "completed_files": [
+    "examples/corda_finetuning/datautils.py",
     "examples/lora_dreambooth/train_dreambooth.py",
+    "method_comparison/MetaMathQA/data.py",
     "src/peft/tuners/boft/layer.py",
+    "src/peft/tuners/cartridge/utils.py",
     "src/peft/tuners/delora/model.py",
     "src/peft/tuners/ia3/bnb.py",
     "src/peft/tuners/lora/model.py",
     "src/peft/tuners/miss/layer.py",
     "src/peft/tuners/oft/bnb.py",
     "tests/test_custom_models.py",
+    "tests/test_encoder_decoder_models.py",
+    "tests/test_gpu_examples.py",
     "tests/test_initialization.py",
-    "tests/test_low_level_api.py"
+    "tests/test_lora_ga.py",
+    "tests/test_low_level_api.py",
+    "tests/test_torch_compile.py",
+    "tests/test_vera.py",
+    "tests/test_xlora.py"
   ],
   "completed_types": [],
   "stats": {
@@ -18,7 +27,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/6d5a6f4f2f902dbf13d21d2661d57c3c05df1dae.nq.gz",
     "call_sites": 37220,
     "import_statements": 2591,
-    "call_targets_resolved": 4145,
+    "call_targets_resolved": 5692,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -32,5 +41,5 @@
     "extends_class_denormalized": 299,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1811
+  "elapsed_seconds": 1801
 }
