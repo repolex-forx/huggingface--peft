@@ -1,0 +1,30 @@
+[2026-11-23T20:06:38Z] === ENRICH ITERATION 4 START | repo=huggingface/peft sha=77daa8d3 ===
+[2026-11-23T20:06:38Z] [iter=4] PHASE START: enrich repo=huggingface/peft sha=77daa8d3 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/77daa8d3-enrich-iter-004.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/77daa8d3b7decf2b40238ab47e2c1bd0f26c7749.nq.gz
+[2026-11-23T20:06:54Z] [iter=4] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-23T20:07:42Z] [iter=4] AST store loaded triples=4183150 load_secs=47 mem_mb=909 MB
+[2026-11-23T20:07:42Z] [iter=4] Step 2: Finding LSP targets mem_mb=909 MB
+[2026-11-23T20:07:51Z] [iter=4] LSP targets found call_sites=31384 imports=2151 extends=261 implements=0 secs=9
+[2026-11-23T20:07:53Z] [iter=4] Loaded checkpoint partial graph triples=60889
+[2026-11-23T20:07:53Z] [iter=4] Primed enclosing-def cache from persisted triples entries=736
+[2026-11-23T20:08:00Z] [iter=4] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=909 MB
+[2026-11-23T20:08:17Z] [iter=4] Position index built positions=285735 nodes_with_types=368205 secs=17 mem_mb=997 MB
+[2026-11-23T20:08:17Z] [iter=4] Step 3: Starting LSP resolution mem_mb=997 MB already_completed_types=[] already_completed_files=32
+[2026-11-23T20:08:17Z] [iter=4] Resolving target type target_type=call_site count=31384
+[2026-11-23T20:08:18Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=1.7 files_done=0 resolved=0 errors=0 current=src/peft/tuners/lora/layer.py
+[2026-11-23T20:10:02Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=3.4 files_done=1 resolved=247 errors=0 current=src/peft/tuners/adaption_prompt/model.py
+[2026-11-23T20:10:34Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=3.9 files_done=3 resolved=361 errors=0 current=tests/test_vera.py
+[2026-11-23T20:21:06Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=14.5 files_done=5 resolved=1626 errors=0 current=src/peft/tuners/osf/model.py
+[2026-11-23T20:23:00Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=16.4 files_done=8 resolved=2084 errors=0 current=tests/test_encoder_decoder_models.py
+[2026-11-23T20:23:53Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=17.3 files_done=10 resolved=2186 errors=0 current=tests/test_low_level_api.py
+[2026-11-23T20:25:27Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=18.8 files_done=11 resolved=2347 errors=0 current=tests/test_feature_extraction_models.py
+[2026-11-23T20:30:30Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=23.9 files_done=13 resolved=2936 errors=0 current=src/peft/tuners/waveft/layer.py
+[2026-11-23T20:31:06Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=24.5 files_done=16 resolved=3108 errors=0 current=src/peft/tuners/mixed/model.py
+[2026-11-23T20:31:42Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=25.1 files_done=21 resolved=3333 errors=0 current=src/peft/tuners/lora/arrow.py
+[2026-11-23T20:32:16Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=25.6 files_done=23 resolved=3444 errors=0 current=examples/boft_controlnet/utils/pipeline_controlnet.py
+[2026-11-23T20:32:55Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=26.3 files_done=26 resolved=3653 errors=0 current=src/peft/tuners/vera/layer.py
+[2026-11-23T20:34:51Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=28.2 files_done=28 resolved=3980 errors=0 current=src/peft/utils/incremental_pca.py
+[2026-11-23T20:36:11Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=29.5 files_done=30 resolved=4144 errors=0 current=tests/test_helpers.py
+[2026-11-23T20:36:39Z] [iter=4] CHECKPOINT TRIGGERED elapsed_min=30.0 files_completed=62 new_files_this_iter=30 mem_mb=1040 MB
+[2026-11-23T20:36:39Z] [iter=4] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/77daa8d3b7decf2b40238ab47e2c1bd0f26c7749.nq.gz triples=99786
+[2026-11-23T20:36:40Z] [iter=4] Checkpoint written, exiting with code 7
+[2026-11-23T20:36:40Z] [iter=4] PHASE END: enrich (checkpointed) elapsed_s=1801 elapsed_min=30.0 files_completed=62
