@@ -1,0 +1,29 @@
+{
+  "commit_sha": "5d58b515672d31c57cc61a4c50a6635df645ec20",
+  "completed_files": [
+    "src/peft/peft_model.py",
+    "src/peft/tuners/loha/layer.py",
+    "src/peft/tuners/mixed/model.py"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/huggingface/peft/lsp/5d58b515672d31c57cc61a4c50a6635df645ec20",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/5d58b515672d31c57cc61a4c50a6635df645ec20.nq.gz",
+    "call_sites": 31235,
+    "import_statements": 2146,
+    "call_targets_resolved": 1879,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 261,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 3193,
+    "import_symbols_denormalized": 4015,
+    "extends_class_denormalized": 261,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1803
+}
