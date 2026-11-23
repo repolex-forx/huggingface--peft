@@ -1,0 +1,28 @@
+{
+  "commit_sha": "e3398fc05c556f64a8e8dc248628bae657107488",
+  "completed_files": [
+    "examples/conditional_generation/peft_lora_seq2seq_accelerate_ds_zero3_offload.py",
+    "tests/test_custom_models.py"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/huggingface/peft/lsp/e3398fc05c556f64a8e8dc248628bae657107488",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/e3398fc05c556f64a8e8dc248628bae657107488.nq.gz",
+    "call_sites": 31399,
+    "import_statements": 2154,
+    "call_targets_resolved": 1850,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 261,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 3206,
+    "import_symbols_denormalized": 4032,
+    "extends_class_denormalized": 261,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1805
+}
