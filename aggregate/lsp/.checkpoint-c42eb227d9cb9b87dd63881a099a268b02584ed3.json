@@ -2,24 +2,36 @@
   "commit_sha": "c42eb227d9cb9b87dd63881a099a268b02584ed3",
   "completed_files": [
     "examples/boft_controlnet/utils/pipeline_controlnet.py",
+    "examples/ephemeral_gpu_offloading/load_with_dora.py",
+    "examples/hra_dreambooth/train_dreambooth.py",
+    "examples/int8_training/peft_adalora_whisper_large_training.py",
     "examples/loftq_finetuning/train_gsm8k_llama.py",
     "examples/lora_dreambooth/train_dreambooth.py",
+    "examples/oft_dreambooth/train_dreambooth.py",
+    "examples/stable_diffusion/train_dreambooth.py",
+    "src/peft/tuners/adaption_prompt/utils.py",
+    "src/peft/tuners/ia3/config.py",
     "src/peft/tuners/lora/eva.py",
     "src/peft/tuners/lora/layer.py",
     "src/peft/tuners/poly/config.py",
     "src/peft/tuners/prefix_tuning/model.py",
     "src/peft/tuners/tuners_utils.py",
     "src/peft/tuners/vera/model.py",
+    "src/peft/utils/incremental_pca.py",
+    "src/peft/utils/loftq_utils.py",
     "tests/bnb/test_bnb_regression.py",
     "tests/regression/test_regression.py",
+    "tests/test_adaption_prompt.py",
     "tests/test_common_gpu.py",
     "tests/test_custom_models.py",
     "tests/test_decoder_models.py",
+    "tests/test_gpu_examples.py",
     "tests/test_initialization.py",
     "tests/test_mixed.py",
     "tests/test_multitask_prompt_tuning.py",
     "tests/test_torch_compile.py",
-    "tests/test_tuners_utils.py"
+    "tests/test_tuners_utils.py",
+    "tests/test_xlora.py"
   ],
   "completed_types": [],
   "stats": {
@@ -27,7 +39,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/c42eb227d9cb9b87dd63881a099a268b02584ed3.nq.gz",
     "call_sites": 23976,
     "import_statements": 1681,
-    "call_targets_resolved": 4740,
+    "call_targets_resolved": 6595,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -41,5 +53,5 @@
     "extends_class_denormalized": 193,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1805
+  "elapsed_seconds": 1802
 }
