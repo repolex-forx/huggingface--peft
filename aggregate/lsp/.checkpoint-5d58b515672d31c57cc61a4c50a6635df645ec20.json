@@ -3,6 +3,7 @@
   "completed_files": [
     "examples/boft_controlnet/utils/args_loader.py",
     "examples/corda_finetuning/datautils.py",
+    "examples/corda_finetuning/preprocess.py",
     "examples/eva_finetuning/eva_finetuning.py",
     "examples/lora_dreambooth/train_dreambooth.py",
     "src/peft/peft_model.py",
@@ -10,9 +11,14 @@
     "src/peft/tuners/c3a/model.py",
     "src/peft/tuners/ia3/layer.py",
     "src/peft/tuners/loha/layer.py",
+    "src/peft/tuners/lora/layer.py",
+    "src/peft/tuners/lora/tp_layer.py",
     "src/peft/tuners/mixed/model.py",
+    "src/peft/tuners/road/bnb.py",
+    "src/peft/tuners/tuners_utils.py",
     "src/peft/tuners/xlora/model.py",
     "src/peft/utils/other.py",
+    "tests/regression/test_regression.py",
     "tests/test_common_gpu.py",
     "tests/test_cpt.py",
     "tests/test_custom_models.py",
@@ -27,7 +33,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/5d58b515672d31c57cc61a4c50a6635df645ec20.nq.gz",
     "call_sites": 31235,
     "import_statements": 2146,
-    "call_targets_resolved": 5268,
+    "call_targets_resolved": 6500,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -41,5 +47,5 @@
     "extends_class_denormalized": 261,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1801
+  "elapsed_seconds": 1846
 }
