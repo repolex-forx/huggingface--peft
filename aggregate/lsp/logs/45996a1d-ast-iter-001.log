@@ -1,0 +1,7 @@
+[2026-11-24T10:41:34Z] === AST ITERATION 1 START | repo=huggingface/peft sha=45996a1d ===
+[2026-11-24T10:41:34Z] [iter=1] PHASE START: ast repo=huggingface/peft sha=45996a1d
+[2026-11-24T10:41:34Z] [iter=1] Building AST aggregate chunks
+[2026-11-24T10:45:52Z] [iter=1] AST chunks built count=1 triples=3606427
+[2026-11-24T10:45:52Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/45996a1d6e00b0951424a210d24aa4058c7b0dcf/.complete
+[2026-11-24T10:45:52Z] [iter=1] PHASE END: ast elapsed_s=259 elapsed_min=4.3
+[2026-11-24T10:45:52Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
