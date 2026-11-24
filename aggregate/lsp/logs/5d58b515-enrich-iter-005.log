@@ -1,0 +1,35 @@
+[2026-11-24T01:14:21Z] === ENRICH ITERATION 5 START | repo=huggingface/peft sha=5d58b515 ===
+[2026-11-24T01:14:21Z] [iter=5] PHASE START: enrich repo=huggingface/peft sha=5d58b515 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/5d58b515-enrich-iter-005.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/5d58b515672d31c57cc61a4c50a6635df645ec20.nq.gz
+[2026-11-24T01:14:33Z] [iter=5] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-24T01:15:14Z] [iter=5] AST store loaded triples=4166503 load_secs=39 mem_mb=925 MB
+[2026-11-24T01:15:14Z] [iter=5] Step 2: Finding LSP targets mem_mb=925 MB
+[2026-11-24T01:15:27Z] [iter=5] LSP targets found call_sites=31235 imports=2146 extends=261 implements=0 secs=14
+[2026-11-24T01:15:33Z] [iter=5] Loaded checkpoint partial graph triples=90670
+[2026-11-24T01:15:33Z] [iter=5] Primed enclosing-def cache from persisted triples entries=1185
+[2026-11-24T01:15:44Z] [iter=5] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=925 MB
+[2026-11-24T01:16:13Z] [iter=5] Position index built positions=284610 nodes_with_types=366737 secs=29 mem_mb=1049 MB
+[2026-11-24T01:16:13Z] [iter=5] Step 3: Starting LSP resolution mem_mb=1049 MB already_completed_types=[] already_completed_files=36
+[2026-11-24T01:16:13Z] [iter=5] Resolving target type target_type=call_site count=31235
+[2026-11-24T01:16:15Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=1.9 files_done=0 resolved=0 errors=0 current=examples/alora_finetuning/alora_finetuning.py
+[2026-11-24T01:16:45Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=2.4 files_done=1 resolved=1 errors=0 current=tests/test_vera.py
+[2026-11-24T01:18:31Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=4.2 files_done=2 resolved=59 errors=0 current=src/peft/tuners/road/layer.py
+[2026-11-24T01:19:16Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=4.9 files_done=3 resolved=180 errors=0 current=examples/oft_dreambooth/train_dreambooth.py
+[2026-11-24T01:21:12Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=6.8 files_done=4 resolved=396 errors=0 current=tests/test_poly.py
+[2026-11-24T01:21:57Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=7.6 files_done=7 resolved=517 errors=0 current=src/peft/tuners/lokr/layer.py
+[2026-11-24T01:22:56Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=8.6 files_done=8 resolved=676 errors=0 current=examples/hra_dreambooth/utils/dataset.py
+[2026-11-24T01:23:43Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=9.4 files_done=11 resolved=843 errors=0 current=src/peft/tuners/vera/bnb.py
+[2026-11-24T01:24:17Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=9.9 files_done=12 resolved=907 errors=0 current=src/peft/tuners/fourierft/layer.py
+[2026-11-24T01:27:49Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=13.5 files_done=14 resolved=1222 errors=0 current=examples/int8_training/peft_adalora_whisper_large_training.py
+[2026-11-24T01:29:41Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=15.3 files_done=15 resolved=1350 errors=0 current=method_comparison/MetaMathQA/utils.py
+[2026-11-24T01:31:02Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=16.7 files_done=16 resolved=1500 errors=0 current=src/peft/utils/integrations.py
+[2026-11-24T01:32:33Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=18.2 files_done=18 resolved=1605 errors=0 current=tests/test_tuners_utils.py
+[2026-11-24T01:37:00Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=22.6 files_done=19 resolved=1862 errors=0 current=tests/test_trainable_tokens.py
+[2026-11-24T01:39:37Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=25.3 files_done=20 resolved=2071 errors=0 current=src/peft/tuners/randlora/model.py
+[2026-11-24T01:41:21Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=27.0 files_done=23 resolved=2262 errors=0 current=src/peft/tuners/lora/hqq.py
+[2026-11-24T01:42:15Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=27.9 files_done=24 resolved=2306 errors=0 current=examples/miss_finetuning/miss_finetuning.py
+[2026-11-24T01:43:11Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=28.8 files_done=26 resolved=2409 errors=0 current=examples/dora_finetuning/dora_finetuning.py
+[2026-11-24T01:43:53Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=29.5 files_done=28 resolved=2516 errors=0 current=tests/test_encoder_decoder_models.py
+[2026-11-24T01:44:25Z] [iter=5] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=64 new_files_this_iter=28 mem_mb=1075 MB
+[2026-11-24T01:44:25Z] [iter=5] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/5d58b515672d31c57cc61a4c50a6635df645ec20.nq.gz triples=114243
+[2026-11-24T01:44:26Z] [iter=5] Checkpoint written, exiting with code 7
+[2026-11-24T01:44:26Z] [iter=5] PHASE END: enrich (checkpointed) elapsed_s=1804 elapsed_min=30.1 files_completed=64
