@@ -1,0 +1,39 @@
+{
+  "commit_sha": "53c25fe4fdd7c6aa4b40db0560815ea570d32303",
+  "completed_files": [
+    "scripts/log_reports.py",
+    "scripts/train_memory.py",
+    "src/peft/peft_model.py",
+    "src/peft/tuners/ia3/layer.py",
+    "src/peft/tuners/loha/layer.py",
+    "src/peft/tuners/lora/eva.py",
+    "src/peft/tuners/lora/model.py",
+    "src/peft/tuners/oft/inc.py",
+    "src/peft/tuners/oft/layer.py",
+    "tests/bnb/test_bnb_regression.py",
+    "tests/test_common_gpu.py",
+    "tests/test_encoder_decoder_models.py",
+    "tests/test_gpu_examples.py"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/huggingface/peft/lsp/53c25fe4fdd7c6aa4b40db0560815ea570d32303",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/53c25fe4fdd7c6aa4b40db0560815ea570d32303.nq.gz",
+    "call_sites": 28426,
+    "import_statements": 2006,
+    "call_targets_resolved": 3773,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 233,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 2957,
+    "import_symbols_denormalized": 3700,
+    "extends_class_denormalized": 233,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1801
+}
