@@ -1,0 +1,39 @@
+[2026-11-24T12:23:39Z] === ENRICH ITERATION 4 START | repo=huggingface/peft sha=45996a1d ===
+[2026-11-24T12:23:39Z] [iter=4] PHASE START: enrich repo=huggingface/peft sha=45996a1d runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/45996a1d-enrich-iter-004.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/45996a1d6e00b0951424a210d24aa4058c7b0dcf.nq.gz
+[2026-11-24T12:23:50Z] [iter=4] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-24T12:24:25Z] [iter=4] AST store loaded triples=3606419 load_secs=34 mem_mb=911 MB
+[2026-11-24T12:24:25Z] [iter=4] Step 2: Finding LSP targets mem_mb=911 MB
+[2026-11-24T12:24:37Z] [iter=4] LSP targets found call_sites=26988 imports=1910 extends=219 implements=0 secs=12
+[2026-11-24T12:24:42Z] [iter=4] Loaded checkpoint partial graph triples=85675
+[2026-11-24T12:24:42Z] [iter=4] Primed enclosing-def cache from persisted triples entries=1136
+[2026-11-24T12:24:51Z] [iter=4] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=911 MB
+[2026-11-24T12:25:16Z] [iter=4] Position index built positions=245405 nodes_with_types=315681 secs=25 mem_mb=995 MB
+[2026-11-24T12:25:16Z] [iter=4] Step 3: Starting LSP resolution mem_mb=995 MB already_completed_types=[] already_completed_files=42
+[2026-11-24T12:25:16Z] [iter=4] Resolving target type target_type=call_site count=26988
+[2026-11-24T12:25:18Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=1.6 files_done=0 resolved=0 errors=0 current=src/peft/tuners/boft/layer.py
+[2026-11-24T12:26:39Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=3.0 files_done=1 resolved=238 errors=0 current=examples/hra_dreambooth/utils/args_loader.py
+[2026-11-24T12:29:08Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=5.5 files_done=3 resolved=454 errors=0 current=tests/test_multitask_prompt_tuning.py
+[2026-11-24T12:30:00Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=6.3 files_done=4 resolved=529 errors=0 current=src/peft/tuners/vblora/layer.py
+[2026-11-24T12:30:31Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=6.9 files_done=5 resolved=601 errors=0 current=examples/stable_diffusion/convert_sd_adapter_to_peft.py
+[2026-11-24T12:31:04Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=7.4 files_done=7 resolved=727 errors=0 current=src/peft/tuners/lora/bnb.py
+[2026-11-24T12:32:53Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=9.2 files_done=8 resolved=877 errors=0 current=examples/feature_extraction/peft_lora_embedding_semantic_search.py
+[2026-11-24T12:33:38Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=10.0 files_done=9 resolved=988 errors=0 current=src/peft/mixed_model.py
+[2026-11-24T12:34:16Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=10.6 files_done=12 resolved=1137 errors=0 current=tests/test_mixed.py
+[2026-11-24T12:37:12Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=13.6 files_done=13 resolved=1418 errors=0 current=examples/randlora_finetuning/randlora_finetuning.py
+[2026-11-24T12:38:19Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=14.7 files_done=16 resolved=1539 errors=0 current=src/peft/tuners/mixed/model.py
+[2026-11-24T12:39:18Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=15.7 files_done=18 resolved=1682 errors=0 current=src/peft/tuners/vblora/model.py
+[2026-11-24T12:40:03Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=16.4 files_done=20 resolved=1819 errors=0 current=tests/test_feature_extraction_models.py
+[2026-11-24T12:40:45Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=17.1 files_done=22 resolved=1910 errors=0 current=tests/testing_utils.py
+[2026-11-24T12:42:11Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=18.5 files_done=24 resolved=2005 errors=0 current=src/peft/tuners/cpt/config.py
+[2026-11-24T12:42:53Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=19.2 files_done=26 resolved=2118 errors=0 current=tests/test_integrations.py
+[2026-11-24T12:44:53Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=21.2 files_done=28 resolved=2255 errors=0 current=examples/hra_dreambooth/train_dreambooth.py
+[2026-11-24T12:45:35Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=21.9 files_done=29 resolved=2352 errors=0 current=src/peft/tuners/randlora/model.py
+[2026-11-24T12:46:31Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=22.9 files_done=30 resolved=2487 errors=0 current=src/peft/tuners/_buffer_dict.py
+[2026-11-24T12:47:07Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=23.5 files_done=33 resolved=2624 errors=0 current=src/peft/tuners/trainable_tokens/layer.py
+[2026-11-24T12:47:37Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=24.0 files_done=35 resolved=2700 errors=0 current=tests/test_config.py
+[2026-11-24T12:49:38Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=26.0 files_done=37 resolved=2847 errors=0 current=examples/conditional_generation/peft_lora_seq2seq_accelerate_fsdp.py
+[2026-11-24T12:52:29Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=28.8 files_done=39 resolved=2990 errors=0 current=src/peft/tuners/adalora/model.py
+[2026-11-24T12:53:45Z] [iter=4] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=82 new_files_this_iter=40 mem_mb=999 MB
+[2026-11-24T12:53:45Z] [iter=4] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/45996a1d6e00b0951424a210d24aa4058c7b0dcf.nq.gz triples=114649
+[2026-11-24T12:53:47Z] [iter=4] Checkpoint written, exiting with code 7
+[2026-11-24T12:53:47Z] [iter=4] PHASE END: enrich (checkpointed) elapsed_s=1806 elapsed_min=30.1 files_completed=82
