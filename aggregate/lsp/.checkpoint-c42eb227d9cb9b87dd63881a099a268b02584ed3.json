@@ -1,0 +1,37 @@
+{
+  "commit_sha": "c42eb227d9cb9b87dd63881a099a268b02584ed3",
+  "completed_files": [
+    "examples/lora_dreambooth/train_dreambooth.py",
+    "src/peft/tuners/lora/eva.py",
+    "src/peft/tuners/poly/config.py",
+    "src/peft/tuners/tuners_utils.py",
+    "src/peft/tuners/vera/model.py",
+    "tests/bnb/test_bnb_regression.py",
+    "tests/regression/test_regression.py",
+    "tests/test_custom_models.py",
+    "tests/test_mixed.py",
+    "tests/test_multitask_prompt_tuning.py",
+    "tests/test_torch_compile.py"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/huggingface/peft/lsp/c42eb227d9cb9b87dd63881a099a268b02584ed3",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/c42eb227d9cb9b87dd63881a099a268b02584ed3.nq.gz",
+    "call_sites": 23976,
+    "import_statements": 1681,
+    "call_targets_resolved": 2697,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 193,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 2446,
+    "import_symbols_denormalized": 3063,
+    "extends_class_denormalized": 193,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1804
+}
