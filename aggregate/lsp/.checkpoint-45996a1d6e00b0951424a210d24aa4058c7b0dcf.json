@@ -3,7 +3,9 @@
   "completed_files": [
     "examples/causal_language_modeling/peft_lora_clm_accelerate_ds_zero3_offload.py",
     "src/peft/tuners/lora/layer.py",
+    "tests/test_custom_models.py",
     "tests/test_gpu_examples.py",
+    "tests/test_initialization.py",
     "tests/test_trainable_tokens.py"
   ],
   "completed_types": [],
@@ -12,7 +14,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/45996a1d6e00b0951424a210d24aa4058c7b0dcf.nq.gz",
     "call_sites": 26988,
     "import_statements": 1910,
-    "call_targets_resolved": 1617,
+    "call_targets_resolved": 3642,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -26,5 +28,5 @@
     "extends_class_denormalized": 219,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1803
+  "elapsed_seconds": 1804
 }
