@@ -1,0 +1,29 @@
+[2026-11-24T22:12:31Z] === ENRICH ITERATION 1 START | repo=huggingface/peft sha=b34d8a2c ===
+[2026-11-24T22:12:31Z] [iter=1] PHASE START: enrich repo=huggingface/peft sha=b34d8a2c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/b34d8a2c-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/b34d8a2ca1f491e6d96620a38fa6888dc97fb5d6.nq.gz
+[2026-11-24T22:12:43Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-24T22:13:19Z] [iter=1] AST store loaded triples=3153583 load_secs=35 mem_mb=910 MB
+[2026-11-24T22:13:19Z] [iter=1] Step 2: Finding LSP targets mem_mb=910 MB
+[2026-11-24T22:13:26Z] [iter=1] LSP targets found call_sites=23980 imports=1681 extends=193 implements=0 secs=7
+[2026-11-24T22:13:32Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=910 MB
+[2026-11-24T22:13:44Z] [iter=1] Position index built positions=213966 nodes_with_types=275235 secs=12 mem_mb=910 MB
+[2026-11-24T22:13:44Z] [iter=1] Step 3: Starting LSP resolution mem_mb=910 MB already_completed_types=[] already_completed_files=0
+[2026-11-24T22:13:44Z] [iter=1] Resolving target type target_type=call_site count=23980
+[2026-11-24T22:13:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.2 files_done=0 resolved=0 errors=0 current=src/peft/utils/hotswap.py
+[2026-11-24T22:14:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.4 files_done=2 resolved=341 errors=0 current=src/peft/tuners/oft/model.py
+[2026-11-24T22:17:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.2 files_done=4 resolved=612 errors=0 current=src/peft/tuners/lora/bnb.py
+[2026-11-24T22:18:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.2 files_done=5 resolved=768 errors=0 current=tests/test_tuners_utils.py
+[2026-11-24T22:20:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.9 files_done=6 resolved=985 errors=0 current=src/peft/tuners/tuners_utils.py
+[2026-11-24T22:21:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.8 files_done=8 resolved=1331 errors=0 current=src/peft/tuners/lokr/layer.py
+[2026-11-24T22:22:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.3 files_done=10 resolved=1552 errors=0 current=tests/test_multitask_prompt_tuning.py
+[2026-11-24T22:23:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.4 files_done=11 resolved=1633 errors=0 current=examples/boft_controlnet/train_controlnet.py
+[2026-11-24T22:28:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.0 files_done=13 resolved=2114 errors=0 current=scripts/log_reports.py
+[2026-11-24T22:29:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.8 files_done=15 resolved=2404 errors=0 current=tests/test_mixed.py
+[2026-11-24T22:31:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.6 files_done=16 resolved=2679 errors=0 current=tests/test_initialization.py
+[2026-11-24T22:37:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.3 files_done=17 resolved=3457 errors=0 current=src/peft/utils/loftq_utils.py
+[2026-11-24T22:38:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.1 files_done=18 resolved=3538 errors=0 current=examples/stable_diffusion/convert_sd_adapter_to_peft.py
+[2026-11-24T22:41:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.9 files_done=20 resolved=4095 errors=0 current=examples/lora_dreambooth/train_dreambooth.py
+[2026-11-24T22:42:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=30.0 files_done=21 resolved=4193 errors=0 current=examples/boft_controlnet/utils/args_loader.py
+[2026-11-24T22:42:32Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=30.0 files_completed=21 new_files_this_iter=21 mem_mb=910 MB
+[2026-11-24T22:42:32Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/b34d8a2ca1f491e6d96620a38fa6888dc97fb5d6.nq.gz triples=47094
+[2026-11-24T22:42:33Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-11-24T22:42:33Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=1801 elapsed_min=30.0 files_completed=21
