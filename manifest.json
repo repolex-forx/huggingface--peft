@@ -14632,6 +14632,189 @@
       ],
       "ast": [
         "aggregate/ast/b34d8a2ca1f491e6d96620a38fa6888dc97fb5d6/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/b34d8a2ca1f491e6d96620a38fa6888dc97fb5d6.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "accelerate",
+          "ecosystem": "PYPI",
+          "version": "1.16.0",
+          "githubOrg": "huggingface",
+          "githubRepo": "accelerate",
+          "githubCommit": "f938aab2a89a8822101937446057211b8059527b",
+          "githubTag": "v1.16.0",
+          "githubUrl": "https://github.com/huggingface/accelerate",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "torch",
+          "ecosystem": "PYPI",
+          "version": "2.15.0",
+          "githubOrg": "pytorch",
+          "githubRepo": "pytorch",
+          "githubCommit": "31a77fc9c0a7c6fff15a1ff58c743f53b1a9d457",
+          "githubTag": "v2.15.0",
+          "githubUrl": "https://github.com/pytorch/pytorch",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "safetensors",
+          "ecosystem": "PYPI",
+          "version": "0.8.0",
+          "githubOrg": "huggingface",
+          "githubRepo": "safetensors",
+          "githubCommit": "a406ca3e7a90598be0cd05a50069cb9bf5ef6ba6",
+          "githubTag": "v0.8.0",
+          "githubUrl": "https://github.com/huggingface/safetensors",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "bitsandbytes",
+          "ecosystem": "PYPI",
+          "version": "0.50.2",
+          "githubOrg": "bitsandbytes-foundation",
+          "githubRepo": "bitsandbytes",
+          "githubCommit": "08a9956b939857ae2c4fbd56753960cc370fa7cf",
+          "githubTag": "0.50.2",
+          "githubUrl": "https://github.com/bitsandbytes-foundation/bitsandbytes",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "scipy",
+          "ecosystem": "PYPI",
+          "version": "1.18.1",
+          "githubOrg": "scipy",
+          "githubRepo": "scipy",
+          "githubCommit": "e4e854eaa8f18d807cd3496028e257e36caa93cc",
+          "githubTag": "v1.18.1",
+          "githubUrl": "https://github.com/scipy/scipy",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "transformers",
+          "ecosystem": "PYPI",
+          "version": "5.24.1",
+          "githubOrg": "huggingface",
+          "githubRepo": "transformers",
+          "githubCommit": "e68083bdf4035ba6d75976a3b7ce15c98a61f278",
+          "githubTag": "v5.24.1",
+          "githubUrl": "https://github.com/huggingface/transformers",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "tqdm",
+          "ecosystem": "PYPI",
+          "version": "4.70.1",
+          "githubOrg": "tqdm",
+          "githubRepo": "tqdm",
+          "githubCommit": "9cf5a12b1f955468a17f0ba3c59092b23e4258ac",
+          "githubTag": "v4.70.1",
+          "githubUrl": "https://github.com/tqdm/tqdm",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "packaging",
+          "ecosystem": "PYPI",
+          "version": "26.4.0",
+          "githubOrg": "pypa",
+          "githubRepo": "packaging",
+          "githubUrl": "https://github.com/pypa/packaging",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "9.2.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+          "githubTag": "9.2.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "numpy",
+          "ecosystem": "PYPI",
+          "version": "2.5.5",
+          "githubOrg": "numpy",
+          "githubRepo": "numpy",
+          "githubCommit": "afcbc6d21a88a7b59c5bfe115198e24ed51b3dae",
+          "githubTag": "v2.5.5",
+          "githubUrl": "https://github.com/numpy/numpy",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pyyaml",
+          "ecosystem": "PYPI",
+          "version": "6.0.4",
+          "githubOrg": "yaml",
+          "githubRepo": "pyyaml",
+          "githubCommit": "575f0e87bcc3b95f4df8da4aaddb0bef4e4553fc",
+          "githubTag": "6.0.4",
+          "githubUrl": "https://github.com/yaml/pyyaml",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "datasets",
+          "ecosystem": "PYPI",
+          "version": "5.2.0",
+          "githubOrg": "huggingface",
+          "githubRepo": "datasets",
+          "githubCommit": "e45c5b38100d0a39f7d29e31431075051b97485b",
+          "githubTag": "5.2.0",
+          "githubUrl": "https://github.com/huggingface/datasets",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "psutil",
+          "ecosystem": "PYPI",
+          "version": "7.2.2",
+          "githubOrg": "giampaolo",
+          "githubRepo": "psutil",
+          "githubCommit": "9eea97dd6f1d16ea33f5144c8925f1ce7a0688e1",
+          "githubTag": "v7.2.2",
+          "githubUrl": "https://github.com/giampaolo/psutil",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "3895f9829fc0e51882981773a823a658eb1d1636",
+          "githubTag": "v84.2.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "builtins",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "dataclasses",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "enum",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "typing",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        }
       ]
     }
   ],

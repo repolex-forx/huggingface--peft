@@ -1,0 +1,22 @@
+[2026-11-25T00:25:06Z] === ENRICH ITERATION 5 START | repo=huggingface/peft sha=b34d8a2c ===
+[2026-11-25T00:25:06Z] [iter=5] PHASE START: enrich repo=huggingface/peft sha=b34d8a2c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/b34d8a2c-enrich-iter-005.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/b34d8a2ca1f491e6d96620a38fa6888dc97fb5d6.nq.gz
+[2026-11-25T00:25:16Z] [iter=5] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-25T00:25:37Z] [iter=5] AST store loaded triples=3153583 load_secs=21 mem_mb=908 MB
+[2026-11-25T00:25:37Z] [iter=5] Step 2: Finding LSP targets mem_mb=908 MB
+[2026-11-25T00:25:44Z] [iter=5] LSP targets found call_sites=23980 imports=1681 extends=193 implements=0 secs=6
+[2026-11-25T00:25:49Z] [iter=5] Loaded checkpoint partial graph triples=149483
+[2026-11-25T00:25:49Z] [iter=5] Primed enclosing-def cache from persisted triples entries=1887
+[2026-11-25T00:25:54Z] [iter=5] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=908 MB
+[2026-11-25T00:26:07Z] [iter=5] Position index built positions=213966 nodes_with_types=275235 secs=13 mem_mb=994 MB
+[2026-11-25T00:26:07Z] [iter=5] Step 3: Starting LSP resolution mem_mb=994 MB already_completed_types=[] already_completed_files=200
+[2026-11-25T00:26:07Z] [iter=5] Resolving target type target_type=call_site count=23980
+[2026-11-25T00:26:08Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=1.0 files_done=0 resolved=0 errors=0 current=src/peft/tuners/vblora/__init__.py
+[2026-11-25T00:26:36Z] [iter=5] Target type resolved target_type=call_site resolved=29 errors=0 secs=29 mem_mb=994 MB
+[2026-11-25T00:26:36Z] [iter=5] Resolving target type target_type=import_statement count=1681
+[2026-11-25T00:26:37Z] [iter=5] Target type resolved target_type=import_statement resolved=23 errors=0 secs=1 mem_mb=994 MB
+[2026-11-25T00:26:37Z] [iter=5] Resolving target type target_type=extends_clause count=193
+[2026-11-25T00:26:38Z] [iter=5] Target type resolved target_type=extends_clause resolved=2 errors=0 secs=1 mem_mb=994 MB
+[2026-11-25T01:12:06Z] [iter=5] Step 5: Writing final enrichment file triples=217084
+[2026-11-25T01:12:08Z] [iter=5] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/b34d8a2ca1f491e6d96620a38fa6888dc97fb5d6.nq.gz size_kb=5172
+[2026-11-25T01:12:08Z] [iter=5] Checkpoint cleared (enrichment complete)
+[2026-11-25T01:12:08Z] [iter=5] PHASE END: enrich elapsed_s=2822 elapsed_min=47.0 total_triples=217084
